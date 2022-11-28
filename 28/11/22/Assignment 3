@@ -1,0 +1,9 @@
+balance=10000
+credit=int(input ('enter amount'))
+if credit>balance:
+ print('insufficient balance')
+ print('please try again')
+else:
+  amount=balance+credit
+  print('credit amount ',amount)
+  print ('remaining amount', amount)
