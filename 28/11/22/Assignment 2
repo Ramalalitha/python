@@ -1,0 +1,8 @@
+pin=5112
+no=int(input('enter pin no'))
+if no==5112:
+ print('pin is valid ')
+ print('continue transaction ')
+else:
+ print('incorrect password ')
+ print('try again')
