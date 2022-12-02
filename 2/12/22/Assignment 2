@@ -1,0 +1,30 @@
+method -1:
+def vote(n):
+ if n>=18:
+   print('yes')
+ else:
+   print('no')
+n=int(input ('enter n'))
+vote(n)
+
+method -2
+def vote(n):
+ if n>=18:
+   return True
+ else:
+   return False
+n=int(input ('enter n'))
+print(vote(n)) 
+
+method-3:
+
+def vote(n):
+ if n>=18:
+   return True
+ else:
+   return False
+ n=int(input('enter n'))
+ if (vote(n)):
+   print('yes')
+ else:
+   print ('no')
