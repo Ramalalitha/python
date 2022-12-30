@@ -1,0 +1,5 @@
+#print 4 and 5 multiples 
+n=int(input('Enter n value:'))
+m=int(input('Enter m value:'))
+l=[i for i in range(n,m+1)if i%4==0 and i%5==0]
+print(l,'are multiples of 4 and 5')
