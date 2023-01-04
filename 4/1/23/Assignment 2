@@ -1,0 +1,33 @@
+n=int(input())
+m=[]
+z=[]
+y=[]
+sum1=0
+sum2=0
+a=0
+b=0
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input())
+        l.append(x)
+    m.append(l)
+for i in range(0,n):
+    for j in range(0,n):
+        if i==j:
+            z.append(m[i][j])
+            a<m[i][j]
+            m[i][j]=a
+
+        if i+j==n-1:
+            y.append(m[i][j])
+            b<m[i][j]
+            b=m[i][j]
+print('primary diagonal:',z)            
+print('Secondary diagonal:',y)
+if a==b:
+    print('max of two diagonals:',a)
+elif a<b:
+    print('max of two diagonals:',b)
+else:
+    print('max of two diagonals:',a)
