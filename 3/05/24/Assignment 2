@@ -1,0 +1,10 @@
+string1="this is aditya degree college"
+list1=[]
+list2=[]
+for i in string1:
+  if i not in list1:
+    list1.append(i)
+    list2.append(string1.count(i))
+x=max(list2)
+ele=list1[list2.index(x)]
+print(ele,x)
